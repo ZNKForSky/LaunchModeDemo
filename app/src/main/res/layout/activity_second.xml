@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAllCaps="false"
+        android:text="This is SecondActivity"/>
+    <Button
+        android:id="@+id/btn_start_third_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start ThirdActivity"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btn_start_myselt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Myselt"
+        android:textAllCaps="false"/>
+</LinearLayout>
